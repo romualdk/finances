@@ -1,0 +1,35 @@
+type;full_name;name;code;description;color;notatki;commoditym;commodityn;hidden;tax;placeholder
+ASSET;Aktywa;Aktywa;;Aktywa;;;PLN;CURRENCY;F;F;T
+ASSET;Aktywa:Aktywa bieżące;Aktywa bieżące;;Aktywa bieżące;;;PLN;CURRENCY;F;F;T
+CASH;Aktywa:Aktywa bieżące:Gotówka w portfelu;Gotówka w portfelu;;Gotówka w portfelu;;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:Oszczędności;Oszczędności;;Oszczędności;;;PLN;CURRENCY;F;F;T
+BANK;Aktywa:Aktywa bieżące:Oszczędności:Jan - Emerytura (5911 ... 9900);Jan - Emerytura (5911 ... 9900);;Jan - Emerytura (5911 ... 9900);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:Oszczędności:Jan - Mieszkanie (6211 ... 9941);Jan - Mieszkanie (6211 ... 9941);;Jan - Mieszkanie (6211 ... 9941);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:Oszczędności:Jan - Poduszka finansowa (3311 ... 9925);Jan - Poduszka finansowa (3311 ... 9925);;Jan - Poduszka finansowa (3311 ... 9925);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:Oszczędności:Jan - Samochód (0311 ... 9922);Jan - Samochód (0311 ... 9922);;Jan - Samochód (0311 ... 9922);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:ROR;ROR;;ROR;;;PLN;CURRENCY;F;F;T
+BANK;Aktywa:Aktywa bieżące:ROR:Ola - mBank (0511 ... 9902);Ola - mBank (0511 ... 9902);;Ola - mBank (0511 ... 9902);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:ROR:Jan - mBank (6011 ... 2216 + 6511 ... 9977);Jan - mBank (6011 ... 2216 + 6511 ... 9977);;Jan - mBank (6011 ... 2216 + 6511 ... 9977);;;PLN;CURRENCY;F;F;F
+BANK;Aktywa:Aktywa bieżące:ROR:Wspólne - mBank (5011 ... 9977);Wspólne - mBank (5011 ... 9977);;Wspólne - mBank (5011 ... 9977);;;PLN;CURRENCY;F;F;F
+LIABILITY;Pasywa;Pasywa;;Pasywa;;;PLN;CURRENCY;F;F;T
+CREDIT;Pasywa:Kredyty;Kredyty;;Kredyty;;;PLN;CURRENCY;F;F;T
+CREDIT;Pasywa:Kredyty:Kredyt hipoteczny;Kredyt hipoteczny;;Kredyt hipoteczny;;;PLN;CURRENCY;F;F;F
+INCOME;Przychód;Przychód;;Przychód;;;PLN;CURRENCY;F;F;T
+INCOME;Przychód:Odsetki;Odsetki;;Przychód z odsetek;;;PLN;CURRENCY;F;F;F
+INCOME;Przychód:Pensja;Pensja;;Pensja;;;PLN;CURRENCY;F;F;F
+INCOME;Przychód:Przychód inny;Przychód inny;;Przychód inny;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki;Wydatki;;Wydatki;;;PLN;CURRENCY;F;F;T
+EXPENSE;Wydatki:01. Mieszkanie ;01. Mieszkanie ;;01. Mieszkanie Snanska;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:02. Wynajem, czynsz i media;02. Wynajem, czynsz i media;;02. Wynajem, czynsz i media;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:03. Żywność i chemia domowa;03. Żywność i chemia domowa;;03. Żywność i chemia domowa;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:04. Jedzenie poza domem;04. Jedzenie poza domem;;04. Restauracje;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:05. Podróże i wyjazdy;05. Podróże i wyjazdy;;05. Podróże;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:06. Odzież i obuwie;06. Odzież i obuwie;;06. Ubrania i kosmetyki;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:07. Sport i hobby;07. Sport i hobby;;07. Sport;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:08. Sprzęt i gadżety;08. Sprzęt i gadżety;;08. Sprzęt i gadżety;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:09. Przejazdy;09. Przejazdy;;09. Transport publiczny;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:10. Zdrowie i uroda;10. Zdrowie i uroda;;10. Zdrowie;;;PLN;CURRENCY;F;F;F
+EXPENSE;Wydatki:99. Inne;99. Inne;;99. Inne;;;PLN;CURRENCY;F;F;F
+EQUITY;Kapitał własny;Kapitał własny;;Kapitał własny;;;PLN;CURRENCY;F;F;T
+EQUITY;Kapitał własny:Bilanse otwarcia;Bilanse otwarcia;;Bilanse otwarcia;;;PLN;CURRENCY;F;F;F
+BANK;Osierocone-PLN;Osierocone-PLN;;;;;PLN;CURRENCY;F;F;F
