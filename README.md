@@ -1,4 +1,5 @@
-`node convert
+```
+node convert
 
 Usage: convert <command> [options]
 
@@ -15,4 +16,5 @@ Opcje:
   -h, --help      Pokaż pomoc                                          [boolean]
 
 Przykłady:
-  convert gnucash -f lista_operacji.csv  Convert using example files`
+  convert gnucash -f lista_operacji.csv  Convert using example files
+  ```
