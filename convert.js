@@ -1,7 +1,7 @@
 const fs = require('fs')
-const { readCsvMBank } = require('./readCsvMBank')
-const { getKeywords, matchKeyword } = require('./keywords')
-const { getAccounts, matchAccount } = require('./accounts')
+const { readCsvMBank } = require('./src/readCsvMBank')
+const { getKeywords, matchKeyword } = require('./src/keywords')
+const { getAccounts, matchAccount } = require('./src/accounts')
 
 const now = new Date()
 const currentDate = now.toISOString().split('T')[0]
