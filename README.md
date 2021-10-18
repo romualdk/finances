@@ -1,3 +1,5 @@
+## How to use
+
 ```
 node convert
 
@@ -18,3 +20,10 @@ Opcje:
 Przykłady:
   convert gnucash -f lista_operacji.csv  Convert using example files
   ```
+
+## To do
+
+* Move categorization code to separate file
+* Move convert to GnuCash code to separate file
+* Test if total values in input and output are the same
+* FIX arguments - works only with the -f
