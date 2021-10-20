@@ -1,19 +1,6 @@
 const fs = require('fs')
 const iconv = require('iconv-lite')
 
-function fixEncodingMBank (string) {
-  const from = ['\x9C', '\x8C']
-  const to = ['ś', 'Ś']
-
-  let result = string
-
-  for (let i in from) {
-    result = result.split(from[i]).join(to[i])
-  }
-
-  return result
-}
-
 function extractAccountNumber (string) {
   let shortNumber = string.match(/([0-9]{4} \.{3} [0-9]{4})/g)
   if (shortNumber) {
@@ -49,8 +36,8 @@ function convertCsvMBank (csv) {
     const date = el[dateIndex]
     const account = extractAccountNumber(el[accountIndex])
     const transfer = extractAccountNumber(el[titleIndex]) || ''
-    const title = fixEncodingMBank(el[titleIndex].replace(/\s+/g, ' ').replace('"', '').substring(0, 250)).replace('"', '').trim()
-    const category = fixEncodingMBank(el[categoryIndex].replace('"', '').replace('"', ''))
+    const title = el[titleIndex].replace(/\s+/g, ' ').replace('"', '').substring(0, 250).replace('"', '').trim()
+    const category = el[categoryIndex].replace('"', '').replace('"', '')
     const value = el[valueIndex].replace(' ', '').replace('PLN', '').trim().replace(',', '.')
 
     return {
@@ -70,8 +57,8 @@ function convertCsvMBank (csv) {
 }
 
 function readCsvMBank (path) {
-  let csv = fs.readFileSync(path, { encoding: null, flag: 'r' })
-  csv = iconv.decode(Buffer.from(csv), 'ISO-8859-2')
+  let csv = fs.readFileSync(path)
+  csv = iconv.decode(Buffer.from(csv), 'windows-1250')
   return convertCsvMBank(csv)
 }
 
