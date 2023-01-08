@@ -33,7 +33,7 @@ const argv = require('yargs/yargs')(process.argv.slice(2))
   .describe('a', 'Accounts csv exported from GnuCash')
   // Defaults
   .default({
-    d: 'data_example',
+    d: 'data',
     o: 'gnucash-' + currentDate + '.csv',
     k: 'keywords.txt',
     a: 'accounts.csv'
